@@ -1,0 +1,46 @@
+/* lab03.css */
+
+/* Estilo para h1 */
+h1 {
+    color: #FF5733; /* Cambia el color a tu preferencia */
+    font-size: 24px;
+}
+
+/* Estilo para h2 */
+h2 {
+    color: #0074D9; /* Cambia el color a tu preferencia */
+    font-size: 20px;
+}
+
+/* Estilo para h3 */
+h3 {
+    color: #2ECC40; /* Cambia el color a tu preferencia */
+    font-size: 18px;
+}
+
+/* Estilo para h4 */
+h4 {
+    color: #FF851B; /* Cambia el color a tu preferencia */
+    font-size: 16px;
+}
+
+/* estilos.css */
+body {
+    background-color: black; /* Cambia el color de fondo a negro */
+    color: white; /* Cambia el color del texto a blanco para mayor contraste */
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 4rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px; /* Agrega un poco de espacio alrededor del contenido */
+}
+
+p {
+    text-align: justify;
+}
+
