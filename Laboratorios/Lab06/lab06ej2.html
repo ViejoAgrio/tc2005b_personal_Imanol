@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Proteínas</title>
+    <link rel="stylesheet" href="lab06ej2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Venta de Proteínas</h2>
+
+        <div class="product">
+            <h3>Pollo</h3>
+            <p>Precio: $10 por kg</p>
+            <label for="pollo">Cantidad (kg):</label>
+            <input type="number" id="pollo" min="0" value="0">
+            <p>Total: <span id="totalPollo">$0</span></p>
+        </div>
+
+        <div class="product">
+            <h3>Carne de res</h3>
+            <p>Precio: $15 por kg</p>
+            <label for="carne">Cantidad (kg):</label>
+            <input type="number" id="carne" min="0" value="0">
+            <p>Total: <span id="totalCarne">$0</span></p>
+        </div>
+
+        <div class="product">
+            <h3>Pescado</h3>
+            <p>Precio: $20 por kg</p>
+            <label for="pescado">Cantidad (kg):</label>
+            <input type="number" id="pescado" min="0" value="0">
+            <p>Total: <span id="totalPescado">$0</span></p>
+        </div>
+
+        <hr>
+
+        <div class="total">
+            <h3>Total a Pagar</h3>
+            <p>Subtotal: <span id="subtotal">$0</span></p>
+            <p>IVA (16%): <span id="iva">$0</span></p>
+            <p>Total a Pagar: <span id="totalFinal">$0</span></p>
+        </div>
+    </div>
+
+    <script src="lab06ej2.js"></script>
+</body>
+</html>
