@@ -1,0 +1,1 @@
+¡Hola, mundo! Este es un ejemplo de texto que se escribirá en un archivo.
