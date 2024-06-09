@@ -1,0 +1,264 @@
+:root {
+    --color-back-azul: rgb(25, 118, 210); 
+    --color-rojo: rgba(181, 28, 28, 0.934); 
+    --color-info-rojo: rgb(224, 39, 39);
+    --color-amarillo: rgb(247, 185, 2); 
+    --color-info-amarillo: rgb(245, 190, 26);
+    --color-info-azul: rgb(49, 131, 214); 
+    --color-negro: rgba(0, 0, 0, 0.947); 
+    --color-info-negro: rgba(0, 0, 0, 0.836); 
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.con {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    background-image: url('/images/fondoBlanco.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    background-color: var(--color-back-azul); /* Color de fondo azul */
+    color: #fff;
+    padding: 10px;
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.logo-header {
+    width: 70px; /* Ajusta esto al tamaño de tu logo */
+    height: 70px; /* Ajusta esto al tamaño de tu logo */
+    background-image: url('/images/logo-appix-blanco.png'); 
+    background-size: contain; /* Asegura que el logo se ajuste dentro de las dimensiones */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px; /* Espacio entre el logo y el título */
+}
+
+.header-title {
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin: 0; /* Elimina el margen por defecto del H1 */
+}
+
+.row {
+    width: 100%;
+}
+
+.post-it {
+    height: 440px;
+    background-color: #fff; /* Color de fondo blanco */
+    margin: 20px; /* Espacio entre los post-its */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    justify-content: right;
+}
+
+.post-it h2 {
+    font-size: 15px;
+    margin: 0;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.post-it h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.post-it p {
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.post-it:hover {
+    transform: translateY(-5px);
+}
+
+.post-it-header-rojo {
+    display: flex;
+    background-color: var(--color-rojo); 
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+}
+
+.post-it-header-amarillo {
+    display: flex;
+    background-color: var(--color-amarillo); 
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+}
+
+.post-it-header-azul {
+    display: flex;
+    background-color: var(--color-back-azul); 
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+}
+
+.post-it-header-negro {
+    display: flex;
+    background-color: var(--color-negro); 
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+}
+
+.post-it-info-rojo {
+    position: relative;
+    width: 120%;
+    height: 140%;
+    margin: 0;
+    background-color: var(--color-info-rojo);
+    color: #fff;
+    text-align: center;
+}
+
+.post-it-info-amarillo {
+    position: relative;
+    width: 120%;
+    height: 140%;
+    margin: 0;
+    background-color: var(--color-info-amarillo);
+    color: #fff;
+    text-align: center;
+}
+
+.post-it-info-azul {
+    position: relative;
+    width: 120%;
+    height: 140%;
+    margin: 0;
+    background-color: var(--color-info-azul);
+    color: #fff;
+    text-align: center;
+}
+
+.post-it-info-negro {
+    position: relative;
+    width: 120%;
+    height: 140%;
+    margin: 0;
+    background-color: var(--color-info-negro);
+    color: #fff;
+    text-align: center;
+}
+
+.post-it-cont {
+    height: 340px;
+    width: 100%;
+    margin: 0;
+    overflow: scroll;
+    margin-left: 10px;
+    text-align:justify;
+}
+
+.myPieChart {
+    width: 20px; /* Ancho más pequeño */
+    height: 20px; /* Altura más pequeña */
+    margin: 0;
+}
+
+.expand-button {
+    background-color: rgb(198, 35, 35);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.post-it-footer-rojo {
+    display: flex;
+    background-color: var(--color-rojo);
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10;
+}
+
+.post-it-footer-amarillo {
+    display: flex;
+    background-color: var(--color-amarillo);
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10;
+}
+
+.post-it-footer-azul {
+    display: flex;
+    background-color: var(--color-back-azul);
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.post-it-footer-negro {
+    display: flex;
+    background-color: var(--color-negro);
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+footer {
+    background-color: var(--color-back-azul);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+}
